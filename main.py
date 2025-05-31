@@ -7,10 +7,10 @@ import os
 # 2. Paste your API key (between the quotes)
 client = groq.Groq(api_key="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")
 #or
-# client = groq.Groq(api_key=os.getenv(GROQ_API_KEY)
+# client = groq.Groq(api_key=os.getenv(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)
 
 # 3. Welcome message
-print("🤖 Welcome to your AI Chatbot! Type 'exit' to stop.")
+print("🤖 Welcome to RoboBot! Type 'exit' to stop.")
 
 # 4. Start chat loop
 while True:
